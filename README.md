@@ -10,10 +10,9 @@ As a part of log10’s hiring process, we use a take home challenge that’s hop
 
 We are looking for:
 
-
- - That it works - for us when we try your submission, and when you demo it on the follow up call.
- - Code quality - safe, reliable, easy to read.
- - Ability to explain your decisions when we chat about your submission.
+- That it works - for us when we try your submission, and when you demo it on the follow up call.
+- Code quality - safe, reliable, easy to read.
+- Ability to explain your decisions when we chat about your submission.
 
 Try not to spend more than 8 hours on the test, but feel free to add bells and whistles if time allows.
 
@@ -31,24 +30,25 @@ The provided skeleton repository uses the OpenAI API directly (without the backe
 
 OpenAI supports streaming of generations. This provides a nice user experience, as long generations can be a bit jarring to wait for.
 
-
 ### Back-end focus Move OpenAI calls to the NextJS API.
-As you can tell, the call to OpenAI and its key management isn’t safe for production. Move the calls to NextJS API to make this more secure.
 
+As you can tell, the call to OpenAI and its key management isn’t safe for production. Move the calls to NextJS API to make this more secure.
 
 ### Bonus Streaming server side support.
 
 Now that server side support of the OpenAI call, make it support streaming, too.
 
-
 ### Bonus Use GraphQL API for server side support.
 
 With or without streaming support (subscriptions), we prefer to use GraphQL over REST.
 
-
 ### Bonus Add bells and whistles in the UI.
 
 The skeleton implementation is very limited on purpose. Feel free to add the ability to change the system prompt, edit existing messages, adding new threads etc.
+
+## Submission
+
+Please zip your solution and email it as an attachment to us. We will run your code locally.
 
 ## Running the skeleton repository
 
@@ -57,7 +57,9 @@ Get started by replacing the OpenAI key in `src/app/page.tsx` and run the follow
 ```bash
 yarn dev
 ```
+
 or
+
 ```bash
 npm dev
 ```
