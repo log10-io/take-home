@@ -2,7 +2,7 @@
 
 ## About the company
 
-Log10 is addressing the challenges around reliability and consistency of LLM-powered applications via a platform that provides robust evaluations, fine-tuning and debugging tools. We are currently a team of 6 having previously worked in AI and infra roles at companies such as Intel, MosaicML, Gainsight, Docker, SiFive, Starburst and Adobe.
+Log10 is addressing the challenges around reliability and consistency of LLM-powered applications via a platform that provides robust evaluations, fine-tuning and debugging tools. We are currently a team of 8 having previously worked in AI and infra roles at companies such as Intel, MosaicML,  Docker, SiFive, Starburst and Adobe.
 
 ## About the challenge
 
@@ -34,17 +34,21 @@ OpenAI supports streaming of generations. This provides a nice user experience, 
 
 As you can tell, the call to OpenAI and its key management isn’t safe for production. Move the calls to NextJS API to make this more secure.
 
-### Bonus: Streaming server side support.
+### Bonus (front and back end): Streaming server side support.
 
 Now that server side support of the OpenAI call, make it support streaming, too.
 
-### Bonus: Use GraphQL API for server side support.
+### Bonus (front and back end): Use GraphQL API for server side support.
 
 With or without streaming support (subscriptions), we prefer to use GraphQL over REST.
 
-### Bonus: Add bells and whistles in the UI.
+### Bonus (front-end): Add bells and whistles in the UI.
 
 The skeleton implementation is very limited on purpose. Feel free to add the ability to change the system prompt, edit existing messages, adding new threads etc.
+
+### Bonus (back-end): Persistance layer
+
+Use a database to persist LLM messages (and/or threads) across reloads.
 
 ## Submission
 
